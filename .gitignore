@@ -1,0 +1,13 @@
+# Ignore the data folder (very large/confidential)
+data/
+
+# Ignore Jupyter's automatic backup files
+.ipynb_checkpoints/
+
+# Ignore Python caches
+__pycache__/
+*.pyc
+
+# Ignore system-specific local files
+.DS_Store
+Thumbs.db
