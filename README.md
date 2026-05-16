@@ -38,10 +38,9 @@ While three models share the exact same confusion matrix profile (correctly clas
 2. **Engineering Interpretability**: Unlike the "black-box" nature of SVM or distance-based mechanics of KNN, Logistic Regression provides direct, extractable feature weights. This allows telemetry engineers to audit which physical factors most strongly influence landing risks.
 3. **Production Efficiency**: The model requires minimal computational overhead, enabling ultra-fast execution during real-time flight data processing.
 
-*(Note: Insert a screenshot of your Confusion Matrix or Folium map here!)*
 
 ```markdown
-![Matrice de confusion](../outputs/figures/Confusion_Matrix_lr.png)
+![Matrice de confusion](/outputs/figures/Confusion_Matrix_lr.png)
 
 ## 🗂️ 5. Repository Structure
 ```text
