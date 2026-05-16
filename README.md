@@ -40,7 +40,7 @@ While three models share the exact same confusion matrix profile (correctly clas
 
 
 ```markdown
-![Matrice de confusion](/outputs/figures/Confusion_Matrix_lr.png)
+![Matrice de confusion](outputs/figures/Confusion_Matrix_lr.png)
 
 ## 🗂️ 5. Repository Structure
 ```text
