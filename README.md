@@ -43,7 +43,7 @@ While three models share the exact same confusion matrix profile (correctly clas
 ![Matrice de confusion](outputs/figures/Confusion_Matrix_lr.png)
 ```markdown
 ## 🗂️ 5. Repository Structure
-```text
+
 spacex-landing-prediction/
 ├── data/
 │   ├── raw/
@@ -57,4 +57,4 @@ spacex-landing-prediction/
 │   └── figures/
 ├── requirements.txt
 └── README.md
-
+```
