@@ -16,10 +16,10 @@ Data was collected through the public SpaceX API and enriched via web scraping f
 
 ## 🚀 3. Methodology & Pipeline
 The project follows a rigorous end-to-end Data Science pipeline divided into 4 core phases:
-1. **Data Collection & Cleaning (`01_...`)**: REST API requests, HTTP handling, and BeautifulSoup web scraping.
-2. **Exploratory Data Analysis (`02_...`)**: SQL querying for trend isolation and Data Viz (Matplotlib/Seaborn).
-3. **Geospatial Analysis (`03_...`)**: Launch site mapping with Folium and interactive dashboarding with Plotly Dash.
-4. **Machine Learning (`04_...`)**: Model training and hyperparameter tuning (Logistic Regression, SVM, Decision Trees, KNN).
+1. **Data Collection & Cleaning (`01_data_collection_cleaning.ipynb`)**: REST API requests, HTTP handling, and BeautifulSoup web scraping.
+2. **Exploratory Data Analysis (`02_eda_sql_visualizations.ipynb`)**: SQL querying for trend isolation and Data Viz (Matplotlib/Seaborn).
+3. **Geospatial Analysis (`03_interactive_maps_dash.ipynb`)**: Launch site mapping with Folium and interactive dashboarding with Plotly Dash.
+4. **Machine Learning (`04_machine_learning_prediction.ipynb`)**: Model training and hyperparameter tuning (Logistic Regression, SVM, Decision Trees, KNN).
 
 ## 📈 4. Key Results & Model Selection
 
@@ -39,9 +39,9 @@ While three models share the exact same confusion matrix profile (correctly clas
 3. **Production Efficiency**: The model requires minimal computational overhead, enabling ultra-fast execution during real-time flight data processing.
 
 
-
-![Matrice de confusion](outputs/figures/Confusion_Matrix_lr.png)
 ```markdown
+![Matrice de confusion](outputs/figures/Confusion_Matrix_lr.png)
+
 ## 🗂️ 5. Repository Structure
 ```text
 spacex-landing-prediction/
