@@ -39,9 +39,9 @@ While three models share the exact same confusion matrix profile (correctly clas
 3. **Production Efficiency**: The model requires minimal computational overhead, enabling ultra-fast execution during real-time flight data processing.
 
 
-```markdown
-![Matrice de confusion](outputs/figures/Confusion_Matrix_lr.png)
 
+![Matrice de confusion](outputs/figures/Confusion_Matrix_lr.png)
+```markdown
 ## 🗂️ 5. Repository Structure
 ```text
 spacex-landing-prediction/
