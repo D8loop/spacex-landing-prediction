@@ -9,6 +9,8 @@ The commercial space age is here. Companies are making space travel affordable f
 
 **The objective of this project (acting as a Data Scientist for a competing startup, "Space Y") is to train a machine learning model to predict whether the Falcon 9 first stage will successfully land, thereby allowing us to accurately estimate the cost of future launches.**
 
+![SpaceX Success Trend](./outputs/figures/success_trend_over_years.png)
+
 ## 📊 2. Dataset Overview
 Data was collected through the public SpaceX API and enriched via web scraping from Wikipedia.
 * **Core Features:** Payload mass, orbit type, launch site, flight history, and grid fins status.
