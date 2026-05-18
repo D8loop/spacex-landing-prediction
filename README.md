@@ -3,6 +3,9 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine_Learning-orange.svg)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626.svg)
+![IBM Capstone](https://img.shields.io/badge/IBM-Applied_Data_Science_Capstone-blueviolet.svg)
+
+> 🎓 **Project Context:** This repository contains the final hands-on **Applied Data Science Capstone** project, fulfilling the requirements for the **IBM Data Science Professional Certificate**.
 
 ## 📌 1. Project Context & Business Objective
 The commercial space age is here. Companies are making space travel affordable for everyone. SpaceX has a massive competitive advantage: the cost of launching a Falcon 9 rocket is advertised at $62 million, while other providers cost upwards of $165 million. This massive saving is primarily because SpaceX can reuse the first stage.
@@ -40,12 +43,11 @@ While three models share the exact same confusion matrix profile (correctly clas
 2. **Engineering Interpretability**: Unlike the "black-box" nature of SVM or distance-based mechanics of KNN, Logistic Regression provides direct, extractable feature weights. This allows telemetry engineers to audit which physical factors most strongly influence landing risks.
 3. **Production Efficiency**: The model requires minimal computational overhead, enabling ultra-fast execution during real-time flight data processing.
 
+![Confusion Matrix](./outputs/figures/Confusion_Matrix_lr.png)
 
-
-![Matrice de confusion](outputs/figures/Confusion_Matrix_lr.png)
-```markdown
 ## 🗂️ 5. Repository Structure
 
+```text
 spacex-landing-prediction/
 ├── data/
 │   ├── raw/
@@ -59,4 +61,3 @@ spacex-landing-prediction/
 │   └── figures/
 ├── requirements.txt
 └── README.md
-```
